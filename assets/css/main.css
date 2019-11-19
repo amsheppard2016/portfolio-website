@@ -249,7 +249,18 @@
 	.align-right {
 		text-align: right;
 	}
-
+	.my-projects{
+		
+		background-color: #666;
+		background-image: url("images/overlay.png"), url("../../images/coding.jpg");
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: auto,							cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+		}
+		
 /* Row */
 
 	.row {
@@ -1981,6 +1992,7 @@
 
 		.container.medium {
 			width: 45em;
+			background: #ccc;
 		}
 
 		.container.large {
@@ -2250,6 +2262,14 @@
 
 /* Box */
 
+	.box2{
+		background:#ccc;
+		border-radius: 6px;
+		box-shadow: 0 2px 0 0 #e5e5e5;
+		margin: 0 0 2em 0;
+		padding: 3em;
+	}
+	
 	.box {
 		background:#fff;
 		border-radius: 6px;
@@ -2328,6 +2348,7 @@
 
 		.box.special {
 			text-align: center;
+			
 		}
 
 		.box .image.featured {
@@ -3302,7 +3323,7 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		background: #444;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -3324,7 +3345,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: #e89980;
+			color: #444;
 		}
 
 		#cta input[type="text"],
