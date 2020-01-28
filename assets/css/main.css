@@ -102,6 +102,7 @@
 
 	*, *:before, *:after {
 		box-sizing: inherit;
+		
 	}
 
 	body {
@@ -252,13 +253,16 @@
 	.my-projects{
 		
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/coding.jpg");
-		background-position: top left,						center center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
+		background-image:url("../../images/vs-code-snippet.png");
+		width:100%;
+		height: auto;
+		background-position:center center;
+		background-repeat:no-repeat;
+		background-size:cover;
 		color: #fff;
-		padding: 12em 0 20em 0;
+		padding: 12em 0 2em 0;
 		text-align: center;
+		
 		
 	}			
 		
@@ -1241,7 +1245,7 @@
 		}
 
 		@media screen and (max-width: 840px) {
-
+			
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1731,7 +1735,10 @@
 		}
 
 		@media screen and (max-width: 480px) {
+			.my-projects{
+				background-image:url("../../images/vs-code-snippet480.png");
 
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2349,8 +2356,13 @@
 
 		.box.special {
 			text-align: center;
-			background: #444444;;
+			background: #3d2f1d;
+			color:#fff;
+			font-size: medium;
 		}
+		.box.special h3{
+			color:#fff;
+		}	
 
 		.box .image.featured {
 			border-radius: 0;
@@ -2448,6 +2460,7 @@
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			color: #3d2f1d;
 		}
 
 		.icon.major {
@@ -2802,7 +2815,8 @@
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 400;
+		font-weight: bold;
+		letter-spacing: .3px;
 		height: 3em;
 		line-height: 3em;
 		padding: 0 2em;
@@ -2870,7 +2884,7 @@
 		.button.alt {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px #e5e5e5;
-			color: #777;
+			color: #fff;
 		}
 
 			input[type="submit"].alt:hover,
@@ -2878,6 +2892,7 @@
 			input[type="button"].alt:hover,
 			.button.alt:hover {
 				background-color: #f8f8f8;
+				color:#3d2f1d
 			}
 
 			input[type="submit"].alt:active,
@@ -2981,7 +2996,7 @@
 	}
 
 	#header {
-		background: #444;
+		background: #3d2f1d;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -3045,6 +3060,8 @@
 					#header nav > ul > li a:not(.button) {
 						color: #fff;
 						display: inline-block;
+						font-weight: bold;	
+    					letter-spacing: .4px;
 						text-decoration: none;
 						border: 0;
 					}
@@ -3228,6 +3245,9 @@
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
 			color: #fff;
+			font-weight: bold;
+			letter-spacing: .3px;
+			
 		}
 
 		#banner h2 {
@@ -3340,6 +3360,7 @@
 				list-style: none;
 				margin-left: 1em;
 				padding-left: 1em;
+				color: #3d2f1d;
 			}
 
 				#footer .copyright li:first-child {
@@ -3351,7 +3372,7 @@
 /* CTA */
 
 	#cta {
-		background: #444;
+		background:#3d2f1d;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -3373,7 +3394,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: #444;
+			color: #3d2f1d;
 		}
 
 		#cta input[type="text"],
@@ -3635,8 +3656,11 @@
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: #2b2b2b;
+				background: #3d2f1d;
 				color: #bbb;
+				font-weight: bold;
+				letter-spacing: .9px;
+				font-size:1.2rem;
 			}
 
 				#navPanel .link {
